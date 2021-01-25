@@ -29,4 +29,4 @@ steps:
     azureSubscription: 'vmchooser.arm'
     appType: 'webApp'
     WebAppName: 'kvaesprivateadotest'
-    packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
+    packageForLinux: '$(System.ArtifactsDirectory)/website/**/*.zip'
